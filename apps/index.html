@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      header {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+      }
+      #app-list {
+        max-width: 800px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .app-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+      .app-logo {
+        max-width: 80px;
+        margin-right: 20px;
+      }
+      .app-details {
+        flex-grow: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>My Projects</h1>
+    </header>
+
+    <div id="app-list">
+      <div class="app-item">
+        <img
+          class="app-logo"
+          src="../assets/apps/mdu_live.png"
+          alt="App 1 Logo"
+        />
+        <div class="app-details">
+          <a href="./mdulive/"> <h2>Mdu Live</h2></a>
+
+          <p>Mdu Live is an unofficial Mdu app to get your result details.</p>
+        </div>
+      </div>
+
+      <div class="app-item">
+        <img
+          class="app-logo"
+          src="../assets/apps/pocketbase.jpg"
+          alt="App 2 Logo"
+        />
+        <div class="app-details">
+          <a href="./pocketbase_mobile/"><h2>Pocketbase Mobile</h2></a>
+
+          <p>Run pocketbase server directly from mobile</p>
+        </div>
+      </div>
+
+      <!-- Add more app items as needed -->
+    </div>
+  </body>
+</html>

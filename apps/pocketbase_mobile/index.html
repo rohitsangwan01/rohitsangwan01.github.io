@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pocketbase Mobile</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+      }
+      header {
+        text-align: center;
+        padding: 20px;
+        background-color: #333;
+        color: #fff;
+      }
+      #app-info {
+        max-width: 600px;
+        margin: 20px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      #app-logo {
+        max-width: 100px;
+        margin-bottom: 20px;
+      }
+      #playstore-button {
+        display: block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+      }
+      #centered-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Pocketbase Mobile</h1>
+    </header>
+
+    <div id="app-info">
+      <div id="centered-div">
+        <img
+          id="app-logo"
+          src="../../assets/apps/pocketbase.jpg"
+          alt="Your App Logo"
+        />
+      </div>
+
+      <p>
+        Checkout pocketbase faq section for mode details
+       <a href="https://pocketbase.io/faq/">https://pocketbase.io/faq/ </a> 
+      </p>
+      <p>
+        Pocketbase is a single server, aka. vertical.
+        Most of the time, you may not need the complexity of managing a fleet of
+        machines and services just to run your backend. PocketBase is a great
+        choice for small and midsize applications - SaaS, mobile api backend,
+        intranet, etc. Even without optimizations
+      </p>
+      <p>
+        PocketBase can easily serve
+        10 000+ concurrent and persistent realtime connections on a cheap $6 VPS
+        (Hetzner 2vCPU, 4GB RAM). Currently the following OAuth2 providers are
+        supported - Google, Facebook, GitHub, GitLab (and more are coming).
+        PocketBase provides only SDKs for client-side integration and you are
+        free to implement your own frontend. For convenience, there are default
+        user facing pages for the user email confirmation links (password reset,
+        verification, etc.) but you can also set your own by updating the urls
+        in the Admin UI settings. PocketBase uses embedded SQLite (in WAL mode)
+        and there are no plans for supporting other databases.
+      </p>
+      </p>
+      <div id="centered-div">
+        <a
+          href="https://play.google.com/store/apps/details?id=com.pocketbase.mobile"
+          ><img
+            alt="Get it on Google Play"
+            width="200"
+            src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
